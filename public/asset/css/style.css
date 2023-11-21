@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+.my-dropdown:hover ul{
+    display: block;
+}
+
+#slider img{
+    height: 500px;
+}
+
+.c-m-b .card{
+    margin-bottom: 20px;
+}
+.card img{
+    height: 100px;
+}
+
+.cta-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/river-in-forest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.cta-bg button{
+    margin-top: 182px;
+}
+
+footer{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+footer ul{
+    list-style: none;
+
+}
+footer ul li{
+    position: relative;
+}
+
+footer ul li::before{
+    content: ' ';
+    height: 5px;
+    width: 5px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 10px;
+    left: -13px;
+
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
